@@ -13,8 +13,10 @@ const App = () => {
           Video Chat
         </Typography>
       </AppBar>
-      {/* VideoPlayer */}
-      {/* Options -> Notifications */}
+      <VideoPlayers />
+      <Options>
+        <Notifications />
+      </Options>
     </div>
   );
 };
