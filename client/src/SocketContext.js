@@ -78,4 +78,27 @@ const ContextProvider = ({ children }) => {
 
     window.location.reload();
   };
+
+  return (
+    <SocketContext.Provider
+      value={{
+        call,
+        callAccepted,
+        myvideo,
+        userVideo,
+        stream,
+        name,
+        setName,
+        callEnded,
+        me,
+        callUser,
+        leaveCall,
+        answerCall,
+      }}
+    >
+      {children}
+    </SocketContext.Provider>
+  );
 };
+
+export { ContextProvider, SocketContext };
