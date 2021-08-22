@@ -1,6 +1,10 @@
 import React from "react";
 import { Typography, AppBar } from "@material-ui/core";
 
+import VideoPlayers from "./components/VideoPlayers";
+import Notifications from "./components/Notifications";
+import Options from "./components/Options";
+
 const App = () => {
   return (
     <div>
