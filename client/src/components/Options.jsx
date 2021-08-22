@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Options = ( {children} ) => {
+const Options = ( { children } ) => {
     return (
         <div>
             Options
